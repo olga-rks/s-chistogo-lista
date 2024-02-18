@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Inter";
+    font-family: "Inter", "Arial", sans-serif;
     font-weight: 400;
     font-display: swap;
     color: #fff;
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     margin: 7px 24px 5px 20px;
     font-size: 72px;
     line-height: 100%;
-    font-family: "EB Garamond";
+    font-family: "EB Garamond", "Times New Roman", serif;
     font-weight: 400;
 }
 
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .content-section__subtitle {
-    font-family: "EB Garamond";
+    font-family: "EB Garamond", "Times New Roman", serif;
     font-size: 28px;
     line-height: 115%;
     font-weight: 500;
@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .card__title {
-    font-family: "EB Garamond";
+    font-family: "EB Garamond", "Times New Roman", serif;
     font-weight: 500;
     font-size: 22px;
     line-height: 135%;
@@ -236,6 +236,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-top: 1px solid #FEE42A;
 }
 
 .footer__copy {
